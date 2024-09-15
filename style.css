@@ -38,9 +38,9 @@ input[type="text"], input[type="checkbox"] {
     margin-bottom: 30px; /* Space below the checkbox */
 }
 .checkbox-container input[type="checkbox"] {
-    width: 25px; /* Increase checkbox size */
-    height: 25px; /* Increase checkbox height */
-    margin-right: 15px; /* Space between checkbox and label */
+    width: 25px; 
+    height: 25px; 
+    margin-right: 15px; 
 }
 .checkbox-container label {
     font-size: 1.1em;
