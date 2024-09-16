@@ -1,6 +1,19 @@
-# Purpose
+# An automated workflow for AWS access provisioning
 
-The purpose of this project is to provide my Fiverr clients with an automated workflow to follow when purchasing any gig that requires access to their AWS environment. 
+## Purpose
+
+The purpose of this project is to provide my Fiverr clients with an automated workflow to follow when purchasing any gig that requires access to their AWS environment. The challenges that this solution is designed to overcome are the following:
+
+* Proof of the client's consent for access provisioning
+* Secure access via the use of temporary credentials as opposed to permanent ones
+* Automated deployment of the necessary resources in the client's AWS environment 
+
+## Prerequisites
+
+* A GitHub account 
+* A Formspree account with the professional plan
+* A Zapier account with the professional plan
+* A Gmail account
 
 ## Architectural diagram
 
@@ -20,6 +33,3 @@ The purpose of this project is to provide my Fiverr clients with an automated wo
 
 **7)** The client will finally provide me with the ARN of their IAM role in accordance with the instructions provided so that I can access their AWS account. Once my work is done, I will delete the CloudFormation stack which will in turn delete all associated resources, thereby revoking my access. 
 
-# AWS Access Form
-
-![Diagram](images/aws-access-form.png)
