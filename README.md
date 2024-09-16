@@ -2,7 +2,7 @@
 
 The purpose of this project is to provide my Fiverr clients with an automated workflow to follow when purchasing any gig that requires access to their AWS environment. 
 
-# AWS Access Form Workflow
+## Architectural diagram
 
 ![Diagram](images/aws-access-form-workflow.png)
 
