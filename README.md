@@ -7,6 +7,7 @@ The purpose of this project is to provide my Fiverr clients with an automated wo
 * Proof of the client's consent for access provisioning
 * Secure access via the use of temporary credentials as opposed to permanent ones
 * Automated deployment of the necessary resources in the client's AWS environment 
+* Automated cleanup of the deployed resources once my work is done
 
 ## Prerequisites
 
