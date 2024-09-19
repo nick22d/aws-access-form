@@ -16,7 +16,7 @@ The purpose of this project is to provide my Fiverr clients with an automated wo
 * A Zapier account with the professional plan
 * A Gmail account
 
-## Architectural diagram
+## Architecture
 
 ![Diagram](images/aws-access-form-workflow.png)
 
