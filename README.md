@@ -2,12 +2,13 @@
 
 ## Purpose
 
-The purpose of this project is to provide my Fiverr clients with an automated workflow to follow when purchasing any gig that requires access to their AWS environment. The challenges that this solution is designed to overcome are the following:
+The purpose of this project is to provide my Fiverr clients with an automated workflow to follow when purchasing any gig that requires access to their AWS environment. This solution is designed to achieve the following objectives:
 
-* Proof of the client's consent for access provisioning
-* Secure access via the use of temporary credentials as opposed to permanent ones
-* Automated deployment of the necessary resources in the client's AWS environment 
-* Automated cleanup of the deployed resources once my work is done
+* Obtain proof of the client's consent for access provisioning
+* Provision secure access via the use of temporary credentials as opposed to permanent ones
+* Enable automated deployment of the necessary resources in the client's AWS environment 
+* Enable automated cleanup of the deployed resources once my work is done
+* Make the whole process as easy as possible even for the most non-technical clients
 
 ## Prerequisites
 
