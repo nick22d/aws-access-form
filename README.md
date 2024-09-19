@@ -26,11 +26,11 @@ The purpose of this project is to provide my Fiverr clients with an automated wo
 
 **3)** After Zapier receives the event, it takes the submitted information through a [formatter](https://help.zapier.com/hc/en-us/articles/8496312326285-Extract-data-in-Zaps#h_01HKMBZEYQZMPZGCCNV93A4MTM) in order to extract the client's email address.
 
-**4)** With the client's email address extracted, Zapier then sends an email to the client containing instructions on how to deploy a CloudFormation stack based on the attached template.
+**4)** With the client's email address extracted, Zapier then sends an email to the client containing instructions on how to deploy a CloudFormation stack based on the provided template which is hosted on an S3 bucket.
 
-**5)** The client then downloads the attached template and deploys it as a CloudFormation stack inside their AWS account as per instructions provided. The CloudFormation stack will deploy the IAM role necessary for access provisioning as well as an SNS topic.
+**5)** The client then imports the template and deploys it as a CloudFormation stack inside their AWS account as per instructions provided. The CloudFormation stack will deploy the IAM role necessary for access provisioning as well as an SNS topic.
 
 **6)** Upon successful completion of the stack, the newly created SNS topic will send a notification to my email address.
 
-**7)** The client will finally provide me with the ARN of their IAM role in accordance with the instructions provided so that I can access their AWS account. Once my work is done, I will delete the CloudFormation stack which will in turn delete all associated resources, thereby revoking my access. 
+**7)** Finally, I assume the IAM role created by the stack and carry out the necessary tasks using the role's temporary credentials. Once my work is done, I will sign out of the account and ask the customer to delete the CloudFormation stack which will in turn delete all associated resources, thereby revoking my access. 
 
