@@ -45,6 +45,17 @@ input[type="text"], input[type="checkbox"] {
 .checkbox-container label {
     font-size: 1.1em;
 }
+.footer_link {
+    font-size: 12px;
+    color: blue;
+    display: block;
+    text-decoration: none;
+    font-family: cnn_sans_display, helveticaneue, Helvetica, Arial, Utkal, sans-serif;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 5%;
+}
 button {
     width: 100%;
     padding: 15px;
